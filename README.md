@@ -1,7 +1,6 @@
-- 👋 Hi, I’m @DennisDyallo
-- 👀 I’m interested in open technologies, blockchain, programming, music and fire spinning
-- 🌱 I’m currently learning GitHub Actions, Docker, Playwright and Aurelia
-- 💞️ I’m looking to collaborate on anything cool
+- 👋 Hi, I’m @DennisDyallo.
+- 👀 I’m interested in empowering users, open technologies, blockchain, programming, music and fire spinning
+- 🌱 I’m currently learning GitHub Actions, Kubernetes, Docker
 - 📫 How to reach me: send me a message
 
 <!---
