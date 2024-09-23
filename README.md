@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @DennisDyallo.
 - 👀 I’m interested in empowering users, open technologies, blockchain, programming, music and fire spinning
-- 🌱 I’m currently learning GitHub Actions, Kubernetes, Docker
+- 🌱 I’m currently learning how to use Span, Memory, ReadOnlySpan, ReadOnlyMemory effectively
 - 📫 How to reach me: send me a message
 
 <!---
