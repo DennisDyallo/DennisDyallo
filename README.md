@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @DennisDyallo.
 - 👀 I’m interested in empowering users, open technologies, blockchain, programming, music and fire spinning
-- 🌱 I’m currently learning how to use Span, Memory, ReadOnlySpan, ReadOnlyMemory effectively
-- 📫 How to reach me: send me a message
+- 🌱 I’m currently working on C# SDK's, AI prompts, and MCP servers.
+- 📫 How to reach me: send me a message on Signal: @moonkin88.88
 
 <!---
 DennisDyallo/DennisDyallo is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
