@@ -14,9 +14,10 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dennis-dyallo)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/DennisDyallo)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:dennis@dyallo.se)
+[![Linktree](https://img.shields.io/badge/Linktree-43E55E?style=flat&logo=linktree&logoColor=white)](https://linktr.ee/dyallo)
 
 📍 Stockholm, Sweden | 🗣️ English, Swedish (native) | Spanish, Portuguese (elementary)
-📱 +46737124377 | 🔗 [dennisdyallo.github.io](https://github.com/DennisDyallo/dennisdyallo.github.io)
+📱 +46737124377 | 🔗 [dennisdyallo.github.io](https://dennisdyallo.github.io) | 🌳 [linktr.ee/dyallo](https://linktr.ee/dyallo)
 
 ---
 
@@ -248,10 +249,12 @@ I'm particularly interested in roles at companies pushing the boundaries of AI i
 ---
 
 **📫 Reach out:**
-- Email: [dennis@dyallo.se](mailto:dennis@dyallo.se)
-- Signal: [@moonkin88.88](https://signal.me/#eu/fPYYsOYSCRmShf67DQB1UwR0c7D94fsmTgLuuBAzaAM-8PsXA2MNiJOz30FTUYrk)
-- LinkedIn: [in/dennis-dyallo](https://www.linkedin.com/in/dennis-dyallo)
-- GitHub: You're already here 😎
+- **Email:** [dennis@dyallo.se](mailto:dennis@dyallo.se)
+- **Signal:** [@moonkin88.88](https://signal.me/#eu/fPYYsOYSCRmShf67DQB1UwR0c7D94fsmTgLuuBAzaAM-8PsXA2MNiJOz30FTUYrk)
+- **LinkedIn:** [in/dennis-dyallo](https://www.linkedin.com/in/dennis-dyallo)
+- **Linktree:** [linktr.ee/dyallo](https://linktr.ee/dyallo) (all my links in one place)
+- **Portfolio/Blog:** [dennisdyallo.github.io](https://dennisdyallo.github.io)
+- **GitHub:** You're already here 😎
 
 ---
 

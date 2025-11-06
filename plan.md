@@ -262,5 +262,38 @@ The CV should answer: "Why would Anthropic/Block/Windsurf want this person?"
 
 ---
 
-**Status:** ✅ Enhanced README.md with deep GitHub research | Ready for final commit
-**Last Updated:** 2025-11-06 (Enhancement Round 2 complete)
+## Enhancement Round 3: Social Links Integration
+
+### Additional Links Added (2025-11-06)
+
+**1. Linktree Integration**
+- **Added:** linktr.ee/dyallo badge to header section
+- **Added:** Linktree link to contact info line
+- **Added:** Linktree to "Reach out" footer section with description
+- **Value:** Provides single landing page for all social/portfolio links
+
+**2. Portfolio Link Enhancement**
+- **Fixed:** dennisdyallo.github.io now links to actual site (not GitHub repo)
+- **Added:** Portfolio/Blog to "Reach out" section
+- **Value:** Direct access to blog posts and demo projects
+
+**3. Contact Section Polish**
+- **Enhanced:** Made contact methods bold for better scannability
+- **Added:** Contextual notes (e.g., "all my links in one place")
+- **Value:** Improved visual hierarchy and clarity
+
+### Final Link Inventory
+- Email: dennis@dyallo.se
+- Signal: @moonkin88.88
+- LinkedIn: linkedin.com/in/dennis-dyallo
+- Linktree: linktr.ee/dyallo
+- Portfolio/Blog: dennisdyallo.github.io
+- GitHub: github.com/DennisDyallo
+- Phone: +46737124377
+
+**Note:** LinkedIn and Linktree both returned 403 errors when attempting to fetch (anti-scraping protection). Links added based on user-provided URLs.
+
+---
+
+**Status:** ✅ Final CV complete with all social links integrated
+**Last Updated:** 2025-11-06 (Enhancement Round 3 complete)
