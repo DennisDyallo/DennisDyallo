@@ -186,5 +186,81 @@ The CV should answer: "Why would Anthropic/Block/Windsurf want this person?"
 
 ---
 
-**Status:** ✅ README.md complete | Ready for commit
-**Last Updated:** 2025-11-06 (Implementation complete)
+## Enhancement Round 2: Deep GitHub Research
+
+### Additional Data Sources Researched (2025-11-06)
+
+**1. PR Review Activity**
+- **Finding:** 75+ PRs reviewed in Yubico.NET.SDK
+- **Value:** Shows mentorship, senior-level responsibilities, code quality focus
+- **Added to CV:** Yubico section "Day-to-day" bullets
+
+**2. Issues Activity**
+- **Finding:** 25+ issues authored/participated across repos
+- **Value:** Shows problem-solving, communication, technical depth
+- **Added to CV:** "Issue triage" bullet + new "Issue Reporting & Problem Solving" section
+
+**3. MCP Ecosystem Engagement**
+- **Finding:** Filed issues in Anthropic's claude-code and MCP repos, identified protocol gaps
+- **Value:** Shows early adopter status, community participation, thought leadership
+- **Added to CV:** New "🌐 Open Source Engagement" section with MCP subsection
+
+**4. Starred Repository Patterns**
+- **Finding:** Claude Code (41.5K⭐), Continue, Bitcoin Core, Hyperliquid DEX, Bevy (Rust), Anki
+- **Value:** Shows technology interests align perfectly with target companies (Anthropic, Block)
+- **Added to CV:** "Technology Radar" subsection showing active learning
+
+**5. Project Technical Depth**
+- **yubikit-mcp details:** FastMCP framework, JSON-RPC 2.0, sandboxed MCP access, multi-IDE support
+- **fast-agent details:** 5 workflow patterns, interactive debugging, multi-modal support, model swapping
+- **Value:** Shows deep MCP understanding, not superficial interest
+- **Added to CV:** Enhanced project descriptions with technical architecture details
+
+### New CV Sections Added
+
+**🌐 Open Source Engagement** (New major section)
+- MCP Ecosystem Participation
+- Technology Radar (shows learning trajectory)
+- Issue Reporting & Problem Solving
+
+**Enhanced Sections:**
+- **Yubico Day-to-day:** Now includes 75+ PR reviews, mentorship focus, 25+ issues
+- **yubikit-mcp:** Technical architecture, framework choice rationale, multi-IDE support
+- **fast-agent:** 5 workflow patterns, key features, why it matters
+- **Let's Talk:** Specific pitch for Anthropic (MCP engagement), Block (blockchain proof), Windsurf
+- **What I bring:** MCP fluency, security-first thinking, mentorship mindset, continuous learning
+
+### Strategic Impact
+
+**For Anthropic:**
+- ✅ Already filed issues in their repos (shows engagement)
+- ✅ Built 2 MCP servers (shows depth)
+- ✅ Using Claude Code daily (shows adoption)
+- ✅ Understands MCP architecture (sampling, tools, resources)
+- ✅ Security background (AI safety relevant)
+
+**For Block:**
+- ✅ Bitcoin Core tracker (shows genuine interest)
+- ✅ Bisq fork (shows blockchain contribution)
+- ✅ Hyperliquid DEX SDK (shows current DeFi interest)
+- ✅ Payment systems experience (Sveriges Radio)
+
+**For Senior Roles:**
+- ✅ 75 PR reviews (mentorship proven)
+- ✅ 120+ PRs authored (volume + quality)
+- ✅ Community participation (not just coding)
+- ✅ Open source maintenance (real-world OSS experience)
+
+### Metrics Summary
+- **PRs Authored:** 120+ (Yubico.NET.SDK alone)
+- **PRs Reviewed:** 75+
+- **Issues Filed:** 25+
+- **MCP Servers Built:** 2
+- **Starred Repos:** 52 (carefully curated around AI/blockchain/systems)
+- **GitHub Achievements:** Pull Shark x3, Pair Extraordinaire x2, Quickdraw, YOLO
+- **Public Repos:** 28
+
+---
+
+**Status:** ✅ Enhanced README.md with deep GitHub research | Ready for final commit
+**Last Updated:** 2025-11-06 (Enhancement Round 2 complete)

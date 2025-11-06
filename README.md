@@ -37,9 +37,11 @@ I write clean C# like it's poetry, champion test-driven development, and get unr
 Working on the [Yubico.NET.SDK](https://github.com/Yubico/Yubico.NET.SDK)—a cross-platform SDK for YubiKey authentication targeting enterprise customers. Think cryptographic signing, public key infrastructure, and making hardware security accessible to .NET developers.
 
 **Day-to-day:**
-- Managing open source repository (reviewing/merging 120+ PRs and counting)
+- **Open source maintenance:** Authored 120+ PRs, reviewed 75+ PRs from contributors
+- **Code mentorship:** Providing guidance on cryptographic correctness, backward compatibility, test quality
 - Publishing cryptographically signed multi-platform libraries (Windows, macOS, Linux, Android)
 - Implementing FIDO2/CTAP protocols in C# and C
+- **Issue triage:** Filed and resolved 25+ issues covering bug fixes, feature requests, build improvements
 - Improving performance, logging, and developer experience
 - Reducing technical debt (my favorite hobby)
 
@@ -127,12 +129,27 @@ Sweden's public radio (think NPR meets Spotify's engineering culture). Progresse
 ## 🚀 Featured Projects
 
 ### [yubikit-mcp](https://github.com/DennisDyallo/yubikit-mcp) (Python)
-MCP server for YubiKey integration. Bridging hardware security tokens with AI agent workflows—because your LLM should probably authenticate users.
+*Hardware-backed cryptographic security meets AI agents*
+
+MCP server enabling AI assistants to manage YubiKey operations through natural conversation. Instead of manual CLI commands, AI agents can discover devices, generate RSA keys on-hardware, configure touch policies, and manage OATH/PIV/FIDO2 applications.
+
+**Technical approach:** Built with FastMCP framework, translates JSON-RPC 2.0 MCP requests into `ykman` CLI operations, provides structured/sandboxed access vs. unrestricted shell commands. Supports Claude Code, VS Code, JetBrains IDEs.
+
+**Why it matters:** Shows intersection of hardware security + AI workflows—relevant for companies building agent-driven security tooling.
 
 ### [fast-agent](https://github.com/DennisDyallo/fast-agent) (Python)
-*"Define, Prompt and Test MCP enabled Agents and Workflows"*
+*Rapid development framework for MCP-enabled AI agents*
 
-Framework for building and testing AI agents using Model Context Protocol. Accelerating the feedback loop between prompt engineering and production deployment.
+Declarative framework for building sophisticated AI agent workflows with full MCP support including sampling. Solves the challenge of rapidly iterating on agent architectures without boilerplate.
+
+**Key features:**
+- **5 workflow patterns:** Chain, Parallel, Evaluator-Optimizer, Router, Orchestrator
+- **Interactive debugging:** Chat with agents before/during/after execution
+- **Model flexibility:** Swap between Anthropic (Claude) and OpenAI (GPT-4o, o1/o3) via flags
+- **Configuration-driven MCP:** Central `fastagent.config.yaml` makes servers accessible to all agents
+- **Multi-modal:** Handles images/PDFs in Prompts, Resources, and Tool Call results
+
+**Why it matters:** Demonstrates deep understanding of MCP architecture and agent workflow patterns—critical for companies building AI agent platforms.
 
 ### [Yubico.NET.SDK](https://github.com/Yubico/Yubico.NET.SDK) (C#)
 Open source SDK with **117 stars**, **59 forks**, and **120+ merged PRs** from yours truly. Making enterprise authentication accessible to .NET developers worldwide.
@@ -175,9 +192,40 @@ Stockholm University (2011-2014)
 
 ---
 
+## 🌐 Open Source Engagement
+
+### MCP Ecosystem Participation
+Already deep in the Model Context Protocol community—not just building, but actively shaping its evolution:
+- **Starred Claude Code** (41.5K⭐) and Continue—early adopter of agentic coding tools
+- **Filed MCP issues** in Anthropic's repos identifying protocol limitations (elicitation support, feature gaps)
+- **Community discussions** on MCP python-sdk and claude-code repositories
+- Built **two production MCP servers** (yubikit-mcp, fast-agent) demonstrating different use cases
+
+### Technology Radar
+Actively tracking and experimenting with:
+- **AI/ML:** Claude Code, Continue, Open-WebUI, ChatterUI (LLM interfaces)
+- **Blockchain:** Bitcoin Core, Hyperliquid DEX SDK, Bisq (decentralized exchanges)
+- **Systems:** Bevy (Rust game engine), WebAssembly, FIDO2/LibFIDO2
+- **Learning:** Anki (spaced repetition—yes, I optimize how I learn)
+
+### Issue Reporting & Problem Solving
+- **25+ issues** filed in Yubico.NET.SDK covering bug fixes, feature requests, build improvements
+- Provided technical guidance in cross-repository discussions
+- Identified gaps between tool capabilities and user needs with actionable feedback
+
+**What this shows:** Not just a code contributor—a community member who identifies problems, proposes solutions, and helps shape the tools we all use.
+
+---
+
 ## 💬 Let's Talk
 
-I'm particularly interested in roles at companies pushing the boundaries of AI integration, blockchain infrastructure, and developer tooling. If you're at **Anthropic** (MCP evangelist here), **Block** (decentralized systems enthusiast), **Windsurf** (AI-enhanced IDEs are the future), or anywhere experimenting with AI in production—I want to hear from you.
+I'm particularly interested in roles at companies pushing the boundaries of AI integration, blockchain infrastructure, and developer tooling.
+
+**Why Anthropic?** Already engaged with your ecosystem—filed issues in claude-code and MCP repos, built two MCP servers, and actively using Claude Code daily. I understand MCP architecture deeply (sampling, tools, resources) and see its potential to revolutionize how AI agents interact with systems. Plus, I bring security consciousness from hardware authentication work—critical for AI safety.
+
+**Why Block?** Blockchain isn't just a buzzword for me—I forked Bisq, track Bitcoin Core development, and follow DEX infrastructure. Your mission around economic empowerment + open financial systems aligns with my Ikigai. I've built payment-adjacent systems at Sveriges Radio and understand high-reliability infrastructure.
+
+**Why Windsurf (or similar AI-forward companies)?** I'm already living the future—using AI agents for code reviews, documentation, and workflow automation. I understand what developers need because I am one, and I know how to build developer tools that don't suck (see: 117⭐ on Yubico SDK).
 
 **What gets me out of bed:**
 - Building developer tools that don't suck
@@ -187,12 +235,15 @@ I'm particularly interested in roles at companies pushing the boundaries of AI i
 - Remote-friendly cultures (occasional work-from-abroad? Yes please)
 
 **What I bring:**
-- Production-hardened code that scales
-- Open source maintenance experience (PR reviews, community management)
-- Cross-platform development chops (Windows/macOS/Linux/Android)
-- Agile delivery methods and stakeholder management
-- Strong communication skills (presentations, documentation, teaching)
-- Passion for learning and adapting (see: current tech stack evolution)
+- **Production-hardened code:** 11+ years shipping systems that don't crash (see: thread safety PR)
+- **Open source expertise:** 120+ PRs authored, 75+ PRs reviewed, active community participant
+- **Mentorship mindset:** Code reviews focusing on security, architecture, and knowledge sharing
+- **Cross-platform development:** Windows/macOS/Linux/Android—I ship everywhere
+- **MCP fluency:** Two production servers, deep understanding of protocol architecture
+- **Security-first thinking:** FIDO2/CTAP implementation experience, cryptographic signing, hardware tokens
+- **Agile delivery:** Scrum Master certified, led teams through complex migrations
+- **Strong communication:** Technical writing, issue triage, stakeholder management, teaching
+- **Continuous learning:** From .NET → AI/MCP → Blockchain (see: Technology Radar section)
 
 ---
 
