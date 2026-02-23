@@ -29,6 +29,34 @@ Mission-driven projects that improve society + code that doesn't crash in produc
 
 ---
 
+## Tech stack
+
+### Languages & frameworks
+![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
+
+**Expert (daily use, 5+ years):** C#, .NET Core/.NET 5-10, Entity Framework
+**Proficient:** Python, TypeScript, JavaScript, SQL, REST APIs, gRPC, FIDO2/CTAP 2.2/2.3, CMake, Zig
+**Familiar:** Rust, C, OAuth, OIDC, GitHub Actions security hardening, Roslyn
+
+### Infrastructure
+**Expert:** Docker, Git, GitHub Actions
+**Proficient:** Kubernetes, Rancher, ArgoCD, Harbor, TeamCity, Octopus Deploy
+**Familiar:** Azure (Service Bus, EntraID, S3)
+
+### Databases & monitoring
+**Expert:** SQL Server, Elasticsearch
+**Proficient:** PostgreSQL, Kibana, Logstash
+**Familiar:** Redis
+
+### Currently exploring
+MCP (Model Context Protocol) and AI agent workflows • Claude Code and AI-assisted development • Bitcoin and decentralized exchanges • Hardware authentication protocols (CTAP 2.3, FIDO2) • Supply chain security and DevSecOps
+
+---
+
 ## What I'm building now
 
 ### Yubico — Senior Software Engineer *(Feb 2024 - Present)*
@@ -80,6 +108,87 @@ First full CTAP 2.2 implementation with extension support, encrypted identifiers
 
 ---
 
+## My projects
+
+### AI Tooling (2025-2026)
+
+#### [CodeMapper](https://github.com/DennisDyallo/CodeMapper) (C#, Jan 2026)
+
+Roslyn-based C# code structure analyzer that generates hierarchical maps optimized for AI/LLM agent context windows. Filters to public API surface (the Goldilocks zone for LLMs), extracts documentation, outputs line numbers for navigation.
+
+**Why it matters:** AI agents need structured code understanding without bloating context. CodeMapper solves this with smart filtering and multiple output formats (text/JSON).
+
+Features:
+- Multi-project support with auto-detection
+- Rich metadata (namespaces, base types, interfaces, attributes)
+- Cross-platform install scripts (curl/wget for macOS/Linux, PowerShell for Windows)
+- .NET 9 AOT-ready for fast startup
+- Used in production for LLM-assisted code reviews
+
+#### [vslsp](https://github.com/DennisDyallo/vslsp) (TypeScript, Jan 2026)
+
+LSP diagnostics tool for AI coding agents that interfaces with OmniSharp. Provides real-time C# compilation errors, warnings, and IntelliSense data to AI assistants through the Language Server Protocol.
+
+Enables AI agents to understand type errors, missing references, and code issues before running builds—critical for autonomous coding workflows.
+
+### MCP Ecosystem
+
+#### [yubikit-mcp](https://github.com/DennisDyallo/yubikit-mcp) (Python, Oct 2025)
+
+MCP server that lets AI assistants manage YubiKey operations. Instead of manual CLI commands, AI agents can discover devices, generate RSA keys on-hardware, configure touch policies, manage OATH/PIV/FIDO2 apps.
+
+Built with FastMCP framework, translates JSON-RPC 2.0 MCP requests into `ykman` CLI operations. Supports Claude Code, VS Code, JetBrains IDEs.
+
+#### [fast-agent](https://github.com/DennisDyallo/fast-agent) (Python, Mar 2025)
+
+Framework for building AI agent workflows with full MCP support. Makes it easy to iterate on agent architectures without tons of boilerplate.
+
+Features:
+- 5 workflow patterns (Chain, Parallel, Evaluator-Optimizer, Router, Orchestrator)
+- Interactive debugging
+- Swap between Anthropic (Claude) and OpenAI (GPT-4o, o1/o3) via flags
+- Config-driven MCP servers
+- Multi-modal (images/PDFs)
+
+### Other Projects
+
+#### [wasm-game-of-life](https://github.com/DennisDyallo/wasm-game-of-life) (Rust)
+
+Conway's Game of Life in Rust compiled to WebAssembly. Sometimes you just need to watch patterns emerge at 60fps.
+
+#### [dennisdyallo.github.io](https://github.com/DennisDyallo/dennisdyallo.github.io)
+
+Personal blog and demo apps (Jekyll/HTML). Where I write about tech experiments and occasionally make things work in the browser.
+
+---
+
+## Open source contributions
+
+### [Yubico.NET.SDK](https://github.com/Yubico/Yubico.NET.SDK) (C#)
+
+Open source SDK with 117 stars, 59 forks. My day job, but also where I've contributed 186+ merged PRs and shipped 6 releases in 2025 alone. Enterprise authentication for .NET developers.
+
+### MCP Ecosystem Engagement
+
+- Filed issues in Anthropic's claude-code and MCP python-sdk repos (protocol limitations, feature gaps)
+- Active in discussions on MCP development
+- Early adopter of Claude Code, Continue, and other agentic coding tools
+- Built two production MCP servers (yubikit-mcp, fast-agent)
+
+### Tracking & Learning
+
+**Blockchain infrastructure:**
+- [bisq](https://github.com/DennisDyallo/bisq) (Java) - Decentralized Bitcoin exchange, exploring P2P trading infrastructure
+- Bitcoin Core - Following development
+- Hyperliquid DEX SDK - Current DeFi stuff
+
+**Other interests:**
+- Bevy (Rust game engine)
+- Anki (spaced repetition learning—yes I optimize how I learn)
+- Open-WebUI, ChatterUI (LLM interfaces)
+
+---
+
 ## Experience
 
 ### Sveriges Radio — Full-stack developer *(2014 - 2024, 9y 11m)*
@@ -109,104 +218,6 @@ Sweden's public radio (think NPR meets Spotify's engineering culture). Started a
 
 ---
 
-## Tech stack
-
-### Languages & frameworks
-![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
-
-**Expert (daily use, 5+ years):** C#, .NET Core/.NET 5-10, Entity Framework
-**Proficient:** Python, TypeScript, JavaScript, SQL, REST APIs, gRPC, FIDO2/CTAP 2.2/2.3, CMake, Zig
-**Familiar:** Rust, C, OAuth, OIDC, GitHub Actions security hardening
-**Learning:** WebAssembly, blockchain protocols
-
-### Infrastructure
-**Expert:** Docker, Git, GitHub Actions
-**Proficient:** Kubernetes, Rancher, ArgoCD, Harbor, TeamCity, Octopus Deploy
-**Familiar:** Azure (Service Bus, EntraID, S3)
-
-### Databases & monitoring
-**Expert:** SQL Server, Elasticsearch
-**Proficient:** PostgreSQL, Kibana, Logstash
-**Familiar:** Redis
-
-### Currently exploring
-- MCP (Model Context Protocol) and AI agent workflows
-- Bitcoin and decentralized exchanges
-- Claude Code and AI-assisted development workflows
-- Hardware authentication protocols (CTAP 2.3, FIDO2)
-- Supply chain security and DevSecOps
-
----
-
-## My projects
-
-### [yubikit-mcp](https://github.com/DennisDyallo/yubikit-mcp) (Python)
-
-MCP server that lets AI assistants manage YubiKey operations. Instead of manual CLI commands, AI agents can discover devices, generate RSA keys on-hardware, configure touch policies, manage OATH/PIV/FIDO2 apps.
-
-Built with FastMCP framework, translates JSON-RPC 2.0 MCP requests into `ykman` CLI operations. Supports Claude Code, VS Code, JetBrains IDEs.
-
-### [fast-agent](https://github.com/DennisDyallo/fast-agent) (Python)
-
-Framework for building AI agent workflows with full MCP support. Makes it easy to iterate on agent architectures without tons of boilerplate.
-
-Features:
-- 5 workflow patterns (Chain, Parallel, Evaluator-Optimizer, Router, Orchestrator)
-- Interactive debugging
-- Swap between Anthropic (Claude) and OpenAI (GPT-4o, o1/o3) via flags
-- Config-driven MCP servers
-- Multi-modal (images/PDFs)
-
-### [wasm-game-of-life](https://github.com/DennisDyallo/wasm-game-of-life) (Rust)
-
-Conway's Game of Life in Rust compiled to WebAssembly. Sometimes you just need to watch patterns emerge at 60fps.
-
-### [dennisdyallo.github.io](https://github.com/DennisDyallo/dennisdyallo.github.io)
-
-Personal blog and demo apps (Jekyll/HTML). Where I write about tech experiments and occasionally make things work in the browser.
-
----
-
-## Open source contributions
-
-### [Yubico.NET.SDK](https://github.com/Yubico/Yubico.NET.SDK) (C#)
-
-Open source SDK with 117 stars, 59 forks. My day job, but also where I've contributed 186+ merged PRs and shipped 6 releases in 2025 alone. Enterprise authentication for .NET developers.
-
-### Other stuff I'm interested in
-
-**Forked/tracking:**
-- [bisq](https://github.com/DennisDyallo/bisq) (Java) - Decentralized Bitcoin exchange, exploring P2P trading infrastructure
-- Bitcoin Core - Following development
-- Hyperliquid DEX SDK - Current DeFi stuff
-
-**MCP ecosystem:**
-- Filed issues in Anthropic's claude-code and MCP python-sdk repos (protocol limitations, feature gaps)
-- Active in discussions on MCP development
-- Early adopter of Claude Code, Continue, and other agentic coding tools
-
-**Other interests:**
-- Bevy (Rust game engine)
-- Anki (spaced repetition learning—yes I optimize how I learn)
-- Open-WebUI, ChatterUI (LLM interfaces)
-
----
-
-## GitHub stats
-
-![Pull Shark x3](https://img.shields.io/badge/Pull%20Shark-x3-blue?style=flat)
-![Pair Extraordinaire x2](https://img.shields.io/badge/Pair%20Extraordinaire-x2-green?style=flat)
-![Quickdraw](https://img.shields.io/badge/Quickdraw-orange?style=flat)
-![YOLO](https://img.shields.io/badge/YOLO-red?style=flat)
-
-28 repositories | 52 starred repos | 186+ PRs merged in Yubico.NET.SDK | 120+ PR reviews | 40+ issues filed
-
----
-
 ## Beyond code
 
 ### Stockholm Flow — Chair of the board *(2016 - Present)*
@@ -224,13 +235,22 @@ Stockholm University (2011-2014)
 - Kubernetes App Developer (2023)
 - Elasticsearch Core Developer & Operations (2017)
 
+### GitHub stats
+
+![Pull Shark x3](https://img.shields.io/badge/Pull%20Shark-x3-blue?style=flat)
+![Pair Extraordinaire x2](https://img.shields.io/badge/Pair%20Extraordinaire-x2-green?style=flat)
+![Quickdraw](https://img.shields.io/badge/Quickdraw-orange?style=flat)
+![YOLO](https://img.shields.io/badge/YOLO-red?style=flat)
+
+28 repositories | 52 starred repos | 186+ PRs merged in Yubico.NET.SDK | 120+ PR reviews | 40+ issues filed
+
 ---
 
 ## Looking for
 
 Interested in companies pushing AI integration, blockchain infrastructure, and developer tooling.
 
-**Anthropic:** Already engaged—filed issues in your repos, built two MCP servers, using Claude Code daily. Integrated Claude Code into Yubico.NET.SDK workflow with custom agent instructions (claude.yml). I get MCP architecture (sampling, tools, resources) and bring security consciousness from hardware auth work and CI/CD security audits.
+**Anthropic:** Already engaged—filed issues in your repos, built two MCP servers, using Claude Code daily. Integrated Claude Code into Yubico.NET.SDK workflow with custom agent instructions (claude.yml). Built CodeMapper and vslsp specifically for AI agent workflows. I get MCP architecture (sampling, tools, resources) and bring security consciousness from hardware auth work and CI/CD security audits.
 
 **Block:** Blockchain isn't just buzzwords for me. Forked Bisq, track Bitcoin Core, follow DEX infrastructure. Your mission around economic empowerment and open financial systems aligns with what I care about.
 
@@ -248,10 +268,10 @@ What I bring:
 - Open source experience (186+ PRs authored, 120+ reviewed)
 - Release management (shipped 6 SDK releases in 2025)
 - Security leadership (led CI/CD security audit, SHA-pinned 68 GitHub Actions)
+- AI tooling development (CodeMapper, vslsp, two MCP servers)
 - Mentorship (code reviews on security, architecture, knowledge sharing)
 - Cross-platform dev (Windows/macOS/Linux/Android)
 - Build engineering (Zig cross-compilation, CMake, native library integration)
-- MCP understanding (two production servers built)
 - Protocol implementation (FIDO2/CTAP 2.2/2.3, crypto signing, hardware tokens)
 - AI-assisted development (Claude Code integration, automated code audits)
 - Agile delivery (Scrum Master, led teams through migrations)
