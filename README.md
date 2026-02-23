@@ -21,7 +21,7 @@
 
 ## Who am I?
 
-Full-stack dev (mostly backend) with 11 years building microservices, APIs, and fixing thread safety bugs. BSc in Computer Science from Stockholm University.
+Full-stack dev (mostly backend) with 12 years building microservices, APIs, and fixing thread safety bugs. BSc in Computer Science from Stockholm University.
 
 I like writing clean C#, test-driven development, and reducing technical debt. Currently working at the intersection of security, AI, and blockchain—turns out one rabbit hole wasn't enough.
 
@@ -36,14 +36,35 @@ Mission-driven projects that improve society + code that doesn't crash in produc
 Working on the [Yubico.NET.SDK](https://github.com/Yubico/Yubico.NET.SDK), a cross-platform SDK for YubiKey authentication targeting enterprise customers. Cryptographic signing, PKI, hardware security for .NET devs.
 
 Day-to-day work:
-- Authored 120+ PRs, reviewed 75+ PRs from contributors
+- Authored 186+ PRs (66 in 2025 alone), reviewed 120+ PRs from contributors
+- Shipped 6 SDK releases in 2025 (1.13.0, 1.13.1, 1.13.2, 1.14.0, 1.14.1, 1.15.0)
+- Led CI/CD security hardening initiative (SHA-pinned 68 GitHub Actions)
 - Mentoring on crypto correctness, backward compatibility, test quality
 - Publishing signed libraries for Windows, macOS, Linux, Android
-- Implementing FIDO2/CTAP protocols in C# and C
-- Filed and resolved 25+ issues (bug fixes, features, build stuff)
+- Implementing FIDO2/CTAP 2.2 and CTAP 2.3 protocols in C# and C
+- Filed and resolved 40+ issues (bug fixes, features, build stuff)
+- Introduced Zig-based cross-compilation toolchain for Linux
 - Performance improvements, logging, reducing tech debt
 
-Some notable work:
+Notable work across 2024-2025:
+
+#### [PR #345](https://github.com/Yubico/Yubico.NET.SDK/pull/345) — CI/CD security hardening (Nov 2025)
+
+Led comprehensive GitHub Actions security audit. SHA-pinned 68 actions across 12 workflows, eliminated credential leaks, added Dependabot for action updates, implemented security best practices throughout CI/CD pipeline.
+
+Security leadership demonstrating deep understanding of supply chain attacks and DevSecOps.
+
+#### [PR #354](https://github.com/Yubico/Yubico.NET.SDK/pull/354) — CTAP 2.3 protocol support (Nov 2025)
+
+Extended FIDO2 implementation to CTAP 2.3 spec. Added support for encrypted credential store state and forward-looking protocol features. Maintained backward compatibility with CTAP 2.2 and earlier.
+
+#### [PR #337](https://github.com/Yubico/Yubico.NET.SDK/pull/337) — Zig cross-compilation (Nov 2025)
+
+Replaced GCC with Zig for Linux NativeShims compilation, targeting glibc 2.28 for broader compatibility. Unique build engineering approach enabling better cross-platform support without complex toolchain dependencies.
+
+#### [PR #328](https://github.com/Yubico/Yubico.NET.SDK/pull/328) — OTP serial number visibility (Oct-Dec 2025)
+
+Implemented serial number visibility feature across 5 OTP configuration classes with comprehensive test coverage. Enhanced OTP configurability for enterprise customers.
 
 #### [PR #325](https://github.com/Yubico/Yubico.NET.SDK/pull/325) — Background thread crash safety (Oct 2024)
 
@@ -51,9 +72,9 @@ Fixed production crashes on macOS when people plugged in/removed YubiKeys. Turns
 
 31 commits, 4,000+ tests, kept code coverage at 50%. Poll-based event detection on Linux, CFRunLoop timeouts on macOS, deterministic finalizer testing, resource leak detection via file descriptor monitoring.
 
-#### [PR #299](https://github.com/Yubico/Yubico.NET.SDK/pull/299) — CTAP 2.2 protocol support (Sep 2024)
+#### [PR #299](https://github.com/Yubico/Yubico.NET.SDK/pull/299) — CTAP 2.2 protocol implementation (Sep 2024)
 
-Implemented Client to Authenticator Protocol 2.2 with extension support, encrypted identifiers, FIDO2 capabilities for YubiKey firmware 5.4.3-5.8.3. Kept backward compatibility.
+First full CTAP 2.2 implementation with extension support, encrypted identifiers, FIDO2 capabilities for YubiKey firmware 5.4.3-5.8.3. Kept backward compatibility.
 
 67 files modified, 40 commits, 3,964+ tests across Windows/Ubuntu/macOS. HKDF key derivation (RFC 5869), CBOR encoding, PIN/UV auth protocols, hmac-secret-mc extension.
 
@@ -97,9 +118,9 @@ Sweden's public radio (think NPR meets Spotify's engineering culture). Started a
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
 
-**Expert (daily use, 5+ years):** C#, .NET Core/.NET 5-8, Entity Framework
-**Proficient:** Python, TypeScript, JavaScript, SQL, REST APIs, gRPC
-**Familiar:** Rust, C, OAuth, OIDC, FIDO2/CTAP
+**Expert (daily use, 5+ years):** C#, .NET Core/.NET 5-10, Entity Framework
+**Proficient:** Python, TypeScript, JavaScript, SQL, REST APIs, gRPC, FIDO2/CTAP 2.2/2.3, CMake, Zig
+**Familiar:** Rust, C, OAuth, OIDC, GitHub Actions security hardening
 **Learning:** WebAssembly, blockchain protocols
 
 ### Infrastructure
@@ -115,8 +136,9 @@ Sweden's public radio (think NPR meets Spotify's engineering culture). Started a
 ### Currently exploring
 - MCP (Model Context Protocol) and AI agent workflows
 - Bitcoin and decentralized exchanges
-- Rust → WebAssembly compilation
-- Hardware authentication and secure enclaves
+- Claude Code and AI-assisted development workflows
+- Hardware authentication protocols (CTAP 2.3, FIDO2)
+- Supply chain security and DevSecOps
 
 ---
 
@@ -153,7 +175,7 @@ Personal blog and demo apps (Jekyll/HTML). Where I write about tech experiments 
 
 ### [Yubico.NET.SDK](https://github.com/Yubico/Yubico.NET.SDK) (C#)
 
-Open source SDK with 117 stars, 59 forks. My day job, but also where I've contributed 120+ merged PRs. Enterprise authentication for .NET developers.
+Open source SDK with 117 stars, 59 forks. My day job, but also where I've contributed 186+ merged PRs and shipped 6 releases in 2025 alone. Enterprise authentication for .NET developers.
 
 ### Other stuff I'm interested in
 
@@ -181,7 +203,7 @@ Open source SDK with 117 stars, 59 forks. My day job, but also where I've contri
 ![Quickdraw](https://img.shields.io/badge/Quickdraw-orange?style=flat)
 ![YOLO](https://img.shields.io/badge/YOLO-red?style=flat)
 
-28 repositories | 52 starred repos | 120+ PRs merged in Yubico.NET.SDK | 75+ PR reviews | 25+ issues filed
+28 repositories | 52 starred repos | 186+ PRs merged in Yubico.NET.SDK | 120+ PR reviews | 40+ issues filed
 
 ---
 
@@ -208,7 +230,7 @@ Stockholm University (2011-2014)
 
 Interested in companies pushing AI integration, blockchain infrastructure, and developer tooling.
 
-**Anthropic:** Already engaged—filed issues in your repos, built two MCP servers, using Claude Code daily. I get MCP architecture (sampling, tools, resources) and bring security consciousness from hardware auth work.
+**Anthropic:** Already engaged—filed issues in your repos, built two MCP servers, using Claude Code daily. Integrated Claude Code into Yubico.NET.SDK workflow with custom agent instructions (claude.yml). I get MCP architecture (sampling, tools, resources) and bring security consciousness from hardware auth work and CI/CD security audits.
 
 **Block:** Blockchain isn't just buzzwords for me. Forked Bisq, track Bitcoin Core, follow DEX infrastructure. Your mission around economic empowerment and open financial systems aligns with what I care about.
 
@@ -222,12 +244,16 @@ What I'm looking for:
 - Remote-friendly (occasional work from abroad would be nice)
 
 What I bring:
-- 11 years shipping systems that work
-- Open source experience (120+ PRs authored, 75+ reviewed)
+- 12 years shipping systems that work
+- Open source experience (186+ PRs authored, 120+ reviewed)
+- Release management (shipped 6 SDK releases in 2025)
+- Security leadership (led CI/CD security audit, SHA-pinned 68 GitHub Actions)
 - Mentorship (code reviews on security, architecture, knowledge sharing)
 - Cross-platform dev (Windows/macOS/Linux/Android)
+- Build engineering (Zig cross-compilation, CMake, native library integration)
 - MCP understanding (two production servers built)
-- Security background (FIDO2/CTAP, crypto signing, hardware tokens)
+- Protocol implementation (FIDO2/CTAP 2.2/2.3, crypto signing, hardware tokens)
+- AI-assisted development (Claude Code integration, automated code audits)
 - Agile delivery (Scrum Master, led teams through migrations)
 - Communication (technical writing, stakeholder management)
 
